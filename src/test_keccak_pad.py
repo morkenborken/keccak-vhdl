@@ -25,7 +25,6 @@ import random
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge
 
-from cocotb_bus.scoreboard import Scoreboard
 from cocotbext.axi import AxiStreamBus, AxiStreamSource, AxiStreamSink
 
 def keccak_pad(input, byterate):

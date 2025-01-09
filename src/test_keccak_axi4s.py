@@ -24,7 +24,6 @@ import random
 from cocotb.clock import Clock
 from cocotb.triggers import RisingEdge
 
-from cocotb_bus.scoreboard import Scoreboard
 from cocotbext.axi import AxiStreamBus, AxiStreamSource, AxiStreamSink
 
 from Cryptodome.Hash import SHA3_224, SHA3_256, SHA3_384, SHA3_512, SHAKE128, SHAKE256

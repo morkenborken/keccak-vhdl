@@ -1,0 +1,4 @@
+**/__pycache__/**
+**/*.ghw
+**/results.xml
+**/sim_build/**
